@@ -97,7 +97,7 @@ tStream.end();
 
 ## Notes
 
-*	Similar to `String#split`, a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) separator containing a matching group will result in the separator being retained in the output stream.
+*	Similar to `String#split`, a separator which is a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) containing a matching group will result in the separator being retained in the output stream.
 
 	``` javascript
 	var tStream = stream({
