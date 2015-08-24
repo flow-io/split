@@ -173,6 +173,7 @@ describe( 'validate', function tests() {
 		var err;
 
 		err = validate( {}, {
+			'sep': /\t/,
 			'objectMode': true,
 			'writableObjectMode': true,
 			'encoding': 'base64',
